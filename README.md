@@ -1,5 +1,6 @@
 # MauiLayoutIssue
-Repro of .NET MAUI issue with NavigationPage and custom Layout Manager on Windows.
+Repro of .NET MAUI issue, https://github.com/dotnet/maui/issues/14348, with NavigationPage and
+custom Layout Manager on Windows.
 
 > **ISSUE**  
 > *Using NavigationPage to push and pop pages doesn't combine with a custom layout manager on
@@ -45,7 +46,7 @@ Resizing at that point only makes some controls reappear:
 
 ![](Screenshots/2_columns_resized_after_return_from_lookup_-_still_buggy.png)
 
-and the partially shown controls (is it always Label controls?) continue to be buggy no matter how much resizing is done:
+and some partially shown controls (is it always `Label` controls?) continue to be buggy no matter how much resizing is done:
 
 ![](Screenshots/3_columns_after_lookup_-_bug_persists.png)
 

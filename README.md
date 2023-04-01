@@ -21,11 +21,11 @@ Repro of .NET MAUI issue with NavigationPage and custom Layout Manager on Window
 
 The present [CustomLayout](CustomLayout.cs) adapts the number of columns to the width of the page:
 
-![](Screenshots/1%20column.png)  
+![](Screenshots/1_column.png)  
 
-![](Screenshots/3%20columns.png)
+![](Screenshots/3_columns.png)
 
-![](Screenshots/2%20columns.png)
+![](Screenshots/2_columns.png)
 
 However, if you push another page, e.g., by clicking the [^]:
 
@@ -33,7 +33,7 @@ However, if you push another page, e.g., by clicking the [^]:
 
 and then pop it again, you end up with some controls fully or partially not appearing:
 
-![](Screenshots/2%20columns%20buggy%20after%20return%20from%20lookup.png)
+![](Screenshots/2_columns_buggy_after_return_from_lookup.png)
 
 > **Note that**:
 > 
@@ -43,13 +43,13 @@ and then pop it again, you end up with some controls fully or partially not appe
 
 Resizing at that point only makes some controls reappear:
 
-![](Screenshots/2%20columns%20resized%20after%20return%20from%20lookup%20-%20still%20buggy.png)
+![](Screenshots/2_columns_resized_after_return_from_lookup_-_still_buggy.png)
 
 and the partially shown controls (is it always Label controls?) continue to be buggy no matter how much resizing is done:
 
-![](Screenshots/3%20columns%20after%20lookup%20-%20bug%20persists.png)
+![](Screenshots/3_columns_after_lookup_-_bug_persists.png)
 
-![](Screenshots/1%20column%20after%20lookup%20-%20still%20buggy.png)
+![](Screenshots/1_column_after_lookup_-_still_buggy.png)
 
 > **About Microsoft Visual Studio**
 > 

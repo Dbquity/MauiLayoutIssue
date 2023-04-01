@@ -29,7 +29,7 @@ class PageWithCustomLayout : ContentPage {
                 new Picker { ItemsSource = new[] { "this", "that" } }));
         lookup.Clicked +=
             async (_, __) => await Navigation.PushAsync(
-                new LookupPage { Title = "Seek, and thou shalt find" });
+                new LookupPage { Title = "Seek, and ye shall find" });
     }
 }
 class LookupPage : ContentPage {

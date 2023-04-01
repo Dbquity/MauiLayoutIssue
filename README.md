@@ -46,7 +46,7 @@ Resizing at that point only makes some controls reappear:
 
 ![](Screenshots/2%20columns%20resized%20after%20return%20from%20lookup%20-%20still%20buggy.png)
 
-and the partially shown controls (is it always `Label` controls?) continue to be buggy no matter how much resizing is done:
+and some partially shown controls (is it always `Label` controls?) continue to be buggy no matter how much resizing is done:
 
 ![](Screenshots/3%20columns%20after%20lookup%20-%20bug%20persists.png)
 

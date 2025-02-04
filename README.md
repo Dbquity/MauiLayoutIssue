@@ -1,3 +1,8 @@
+# Problem gone on .NET 9 :-)
+Just ran the Upgrade tool from within Microsoft Visual Studio Community 2022 (64-bit) - Version 17.12.4, and the problem appears to no longer exist in .NET 9 :-)
+
+Only tested on Windows.
+
 # MauiLayoutIssue
 Repro of .NET MAUI issue, https://github.com/dotnet/maui/issues/14348, with NavigationPage and
 custom Layout Manager on Windows.

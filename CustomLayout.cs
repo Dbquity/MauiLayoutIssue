@@ -1,4 +1,6 @@
 ﻿using Microsoft.Maui.Layouts;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace LayoutIssue;
 record Field(Label Lead, View Value, Button Assist = null) {
